@@ -5,7 +5,7 @@ This Markdown cheat sheet provides a quick overview of all the markdown syntax e
 ## Table of Contents
 
 - [Headers](#Headers)
-- [Emphaisi](#emphasis)
+- [Emphasis](#emphasis)
 - [Lists](#lists)
   - [Unordered List](#Unordered-Lists)
   - [Ordered List](#ordered-lists)
@@ -32,9 +32,10 @@ You can use on `#` all the way up to `######` six for different levels of headin
 - Strikethrough uses two tildes: ~~test~~
 
 
-    Italics: Use _Underscores_ or _Asterisks_
-    BOLD: Use double **Underscores** or **Asterisks**
-    Strikethrough uses to tildes: ~~test~~
+
+      Italics: Use _Underscores_ or _Asterisks_
+      BOLD: Use double **Underscores** or **Asterisks**
+      Strikethrough uses to tildes:  ~~test~~
 
 ## Lists
 
@@ -58,12 +59,13 @@ Use number with dots for ordered lists
 
 1. List 1
 2. List 2
-   2.List 2.1
+3. List 3
 
-
-       1. List 1
-       2. List 2
-         2.1 List 
+```
+    1. List 1
+    2. List 2
+    3. List 3
+```
  
 ## Links
 
@@ -100,6 +102,7 @@ For example, this quote from the play Hamlet:
 > the blockquote is used to indicate the quoation of a section of text from another source
 
 For example, this quote from the play Hamlet:
+
 >To be, or not to be? That is the question.
 ```
 
@@ -109,7 +112,7 @@ For example, this quote from the play Hamlet:
 - [ ] Task 2
 - [ ] Task 3
 
-```
+``` 
 - [x] Task 1
 - [ ] Task 2
 - [ ] Task 3
