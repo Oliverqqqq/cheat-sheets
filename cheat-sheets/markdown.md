@@ -7,7 +7,7 @@ This Markdown cheat sheet provides a quick overview of all the markdown syntax e
 - [Headers](#Headers)
 - [Emphasis](#emphasis)
 - [Lists](#lists)
-  - [Unordered List](#Unordered-Lists)
+  - [Unordered List](#Unordered-lists)
   - [Ordered List](#ordered-lists)
 - [Links](#links)
 - [Image](#image)

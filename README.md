@@ -5,4 +5,4 @@ These cheatsheets are summarized from personal experience and other online tutor
 ## Table of Contents
 
 + [Makrdown](cheat-sheets/markdown.md)
-+ [MySQL](cheat-sheets/Mysql.md)
++ [MySQL](cheat-sheets/mysql.md)
