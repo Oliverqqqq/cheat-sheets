@@ -16,19 +16,19 @@ This Mysql cheat sheet provides a quick overview of sql commands to interact wit
 
 Once you've downloaded and start up the Mysql server, add the following line to your `./bash_profile` or `.zshrc` file
 
-'''
+```bash
 export PATH=\${PATH}:/usr/local/mysql/bin/
-'''
+```
 
 Then if you need to reload `./bash_profile`, try:
 
-```
+```bash
 source ~/.bash_profile
 ```
 
 ### Start/Stop/Restart the server
 
-```
+```bash
 mysql.server start
 mysql.server stop
 mysql.server restart
@@ -38,7 +38,7 @@ mysql.server restart
 
 Login in as root (password is prompted):
 
-```
+```bash
 mysql -u root -p
 ```
 
@@ -52,13 +52,13 @@ exit
 
 #### Show all databases
 
-```mysql
+```sql
 SHOW DATABASES;
 ```
 
 #### Create/Delete a database
 
-```mysql
+```sql
 CREATE DATABASE <databaseName>;
 
 DROP DATABASE <databaseName>;
@@ -66,33 +66,33 @@ DROP DATABASE <databaseName>;
 
 #### Select Database
 
-```mysql
+```sql
 USE <databse>;
 ```
 
 #### Determin what database is in use
 
-```myqsl
+```sql
 SELECT DATABASE();
 ```
 
 ### Grant All Preiveleges on Selected Databases
 
-```mysql
+```sql
 GRANT ALL PRIVILEGES ON <databaseName>.* TO '<userName>'@'<host>';
 FLUSH PRIVILEGES;
 ```
 
 ### Remove Grants
 
-```mysql
+```sql
 REVOKE ALL PRIVILEGES ON <databaseName>.* TO '<userName>'@'<host>';
 FLUSH PRIVILEGES;
 ```
 
 ### Show Privileges
 
-```mysql
+```sql
 SHOW GRANTS FOR '<userName>'@'<host>';
 ```
 
@@ -100,12 +100,12 @@ SHOW GRANTS FOR '<userName>'@'<host>';
 
 ### Show all tables
 
-```mysql
+```sql
 SHOW TABLES;
 ```
 
 ### Show Table Properties
 
-```mysql
+```sql
 DESCRIBE <tableName>;
 ```
